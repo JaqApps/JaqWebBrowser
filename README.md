@@ -1,2 +1,2 @@
 # JaqWebBrowser
-The WebBrowser
+Jaq WebBrowser/NewTab
