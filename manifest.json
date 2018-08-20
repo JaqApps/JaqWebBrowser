@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "JaqWebBrowser",
+    "description": "WebBrowser/NewTab For Chrome",
+    "version": "1.1",
+    "browser_action": {
+    },
+    "permissions" : ["management"],
+    "chrome_url_overrides" : {
+        "newtab": "wb.html"
+    }
+}

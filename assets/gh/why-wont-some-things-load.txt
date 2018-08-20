@@ -1,0 +1,14 @@
+========
+Why Wont some things load?
+========
+Date Written: 20/8/18
+Author: JaqApps Leader
+========
+
+Some reasons why some things might not load is:
+
+1. Browser not supported
+2. Internet security is blocking it
+3. Internet offline
+
+If this keeps happening report errors here: https://github.com/JaqApps/JaqWebBrowser/issues
