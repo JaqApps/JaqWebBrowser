@@ -6,6 +6,12 @@ Jaq is a WebBrowser/NewTab! it is mostly made for people that are using old comp
 
 # Supported Browsers
 Opera (Main)
+
 FireFox
-Chrome
+
+Chrome (UnSupported (Including Chromebooks))
+
 Chromium (Unsupported)
+
+# Chrome/Chromium
+Support for these two should come soon!
