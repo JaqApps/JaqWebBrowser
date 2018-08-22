@@ -1,0 +1,15 @@
+========
+Why Wont some things load?
+========
+Date Written: 22/8/18
+Author: JaqApps Leader
+========
+
+JaqWebBrowser's new feature is Settings!
+
+Requirements:
+Python3
+
+Settings is the new way to customize Jaq!
+
+Just use `python3 settings.py`

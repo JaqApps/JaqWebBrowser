@@ -69,6 +69,40 @@ body {
 .closebtn:hover {
     color: black;
 }
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -93,9 +127,64 @@ body {
   <br>
   <p><a href='https://github.com/JaqApps/JaqWebBrowser/issues'>Report a bug</a></p>
 </div>
-<body background='assets/b.jpg'>
+<body background="assets/b.jpg">
 <center>
 <h1 style="color: white;">Jaq</h1>
+<div class="dropdown">
+  <button class="dropbtn">Settings</button>
+  <div class="dropdown-content">
+    <h4>Wallpapers</h4>
+    <button onclick="Bo()">Sparkles</button>
+    <script>
+    function Bo() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/b.jpg')";
+    }
+    </script>
+    <button onclick="Bt()">Space</button>
+    <script>
+    function Bt() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/swirl.jpg')";
+    }
+    </script>
+    <button onclick="Bth()">blocks</button>
+    <script>
+    function Bth() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/blocks.jpg')";
+    }
+    </script>
+    <button onclick="Bf()">Dell</button>
+    <script>
+    function Bf() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/dell.jpg')";
+    }
+    </script>
+    <button onclick="Bfi()">Fruit</button>
+    <script>
+    function Bfi() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/fruit.jpg')";
+    }
+    </script>
+    <button onclick="Bs()">Paris</button>
+    <script>
+    function Bs() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/paris.jpg')";
+    }
+    </script>
+    <button onclick="Bn()">Win7</button>
+    <script>
+    function Bn() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('assets/win7.jpg')";
+    }
+    </script>
+  </div>
+</div>
 </center>
 <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
 <script>
@@ -129,6 +218,4 @@ function closeNav() {
 <a href="info.html">Info</a>
 <h1 style="color: white;">News</h1>
 <iframe width="560" height="315" src="https://tech.economictimes.indiatimes.com/widget/technology" frameborder="0"></iframe>
-<br>
-<br>
 <iframe width="560" height="315" src="https://tech.economictimes.indiatimes.com/widget/people" frameborder="0"></iframe>

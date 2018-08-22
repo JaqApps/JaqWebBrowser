@@ -8,6 +8,6 @@
     },
     "permissions" : ["management"],
     "chrome_url_overrides" : {
-        "newtab": "wb.html"
+        "newtab": "chrometab.html"
     }
 }
